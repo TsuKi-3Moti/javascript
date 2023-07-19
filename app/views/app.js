@@ -49,7 +49,31 @@ let apple = 120;
 if(orange < apple){
   alert("みかんの値段がリンゴより安い");
 } else if(orange == apple){
-  alert("みかんとリンゴが同じ値段")
+  alert("みかんとリンゴが同じ値段");
 } else{
   alert("みかんの値段がリンゴより高い");
 }
+
+// let max = 100;  //最大値を決めておく
+// let num = 1;    //かけられていく数の初期値
+// let count = 0;  //回数
+
+// while(num < max){
+//   num = num * 2;  //numの中の値を上書きしていく
+//   count = count + 1;
+// }
+
+// alert("2を掛け続けて" + max + "を超えるのに必要だった回数は" + count + "回です");
+
+let i;
+let num = 0;
+
+for(i = 1; i < 11; i++){  //初期値が1にする; iが11より小さいときture;でiに1を足す
+  num = num + i;
+}
+
+alert("1から10まで足し算した結果は" + num + "です");
+
+let momo = 10
+let nono = 3
+alert(momo - nono)
