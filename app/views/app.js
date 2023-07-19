@@ -18,3 +18,24 @@ alert(float1);
 // 文字列
 let str1 = "JavaScriptを覚えよう";
 alert(str1);
+
+// 足し算
+alert(4 + 3);
+
+// 引き算
+alert(8 - 5);
+
+// 掛け算
+alert(2 * 6);
+
+// 割り算
+alert(10 / 3);
+
+// 文字列を結合
+alert("Hello" + 'World');
+
+// 変数を利用する場合
+let str3 = 'Hello';
+let str4 = 'World!!';
+alert(str3 + str4);
+
