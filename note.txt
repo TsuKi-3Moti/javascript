@@ -11,3 +11,13 @@ alert('Hello World'); alert('Hello World');
 htmlファイルとjavascriptファイルに分けて使う
 このとき、二つのファイルは同一フォルダ内に保存
 
+
+
+・変数の書き方
+let 変数名 = 内容 ; # 内容が初期値になる
+例 let hello = "Hello, World";
+
+★任意の数値、文字列、さらには関数も代入可能
+
+let → 変数を宣言
+
